@@ -3,13 +3,23 @@ body{
     padding: 0px;
 }
 .content {
-    display: flex;
+    display: block;
     justify-content: space-evenly;
     flex-direction: row;
     margin : 0px;
-    margin-top: 10vh;
     padding: 0px;
+    height: 100vh;
+}
+
+/* william */
+.text-bild-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
     height: 80vh;
+    margin-top: 10vh;
+
 }
 .text {
     width: 28vw;
@@ -24,6 +34,7 @@ body{
     margin: 0px;
     padding: 0px;
     border-radius: 10px;
+    overflow: hidden;
 }
 .bild{
     width: 28vw;
@@ -31,4 +42,46 @@ body{
     margin: 0px;
     padding: 0px;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+/* frank */
+.chat {
+    display: block;
+}
+.chat-left {
+    background-color: aqua;
+    float: left;
+
+    width: 20vw;
+}
+.chat-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0.5vh;
+}
+.chat-top input{
+    width: 19vw;
+    height: 3vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    border-style: solid;
+    border-radius: 8px;
+    
+}
+.chat-friends {
+
+}
+.chat-friend{
+    width: 20vw;
+    height: 6vh;
+    background-color: blue;
+}
+.chat-right {
+    background-color: red;
+    float: right;
+    width: 80vw;
+
 }
