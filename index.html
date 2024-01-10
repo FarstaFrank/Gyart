@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" width="device-width" initial-scale="1.0">
+        <title>Color Flow</title>
+
+        <link rel="stylesheet" type="text/css" href="style-top.css">
+        <link rel="stylesheet" type="text/css" href="style-nav+home.css">
+        <link rel="stylesheet" type="text/css" href="style-content.css">
+        <link rel="stylesheet" type="text/css" href="style-all.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0" />
+    </head>
+    <body>
+        <!-- Top - Frank style-top.css color.js -->
+        <div class="color-container">
+            <div class="color-top">
+                <div class="color-top-title">
+                    <h1>Color Flow</h1>
+                    <p>Choose your colors and color modes</p>
+                </div>
+                <div class="color-top-mode">
+                    <span class="curent-mode">
+                        <h2 id="curentMode">60/30/10 rule</h2>
+                    </span>
+                    <button class="mode-dropdown-btn" id="choseMode">
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </button>
+                    <div class="mode-dropdown" id="modeDropDown">
+                        <button class="mode-dropdown-item" id="btn603010">60/30/10 Rule</button>
+                        <button class="mode-dropdown-item" id="mode2">Mode 2</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="rule603010" id="603010rule">
+                <div class="color-window-qex">
+                    <p class="color1-qex">60%</p>
+                    <p class="color2-qex">30%</p>
+                    <p class="color3-qex">10%</p>
+
+                </div>
+                <div class="color-window-colors">
+                    <div class="color1">
+                        <input type="color" id="color1">
+                    </div>
+                    <div class="color2">
+                        <input type="color" id="color2">
+                    </div>
+                    <div class="color3">
+                        <input type="color" id="color3">
+                    </div>
+                </div>
+                <div class="display-colors">
+                    <div class="display1">
+                        <p id="colorDisplay1">#</p>
+                    </div>
+                    <div class="display2">
+                        <p id="colorDisplay2">#</p>
+                    </div>
+                    <div class="display3">
+                        <p id="colorDisplay3">#</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="color-window-2" id="window2">
+
+            </div>
+        </div>
+        
+        <!-- Nav - William style-nav.css nav.js -->
+        <nav class="setTwo-back">  
+            <ul>  
+                <li id="openHome"><p>Home</p></li>
+                <li id="openTextBild"><p>Bild</p></li>
+                <li><p>Extra</p></li>
+            </ul>  
+        </nav>
+
+        <div class="home" id="home">
+          <h1>blablabla text</h1>
+        </div>
+
+        <!-- Content - Lucas style-content.css -->
+        <div class="text-bild" id="textBild">
+            <div class="content">
+                <div class="text setOne-back">
+                    <h1>hej</h1>
+                </div>
+                <div class="tb setOne-back">
+                    <h1>hej</h1>
+                </div>
+                <div class="bild setOne-back">
+                    <h1>hej</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="nav.js"></script>
+        <script src="color.js"></script>
+    </body>
+</html>

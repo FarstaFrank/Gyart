@@ -1,0 +1,33 @@
+/* setting up defult settings for stuff that gonna be used multiple times */
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+button{
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.home{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-bild{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}

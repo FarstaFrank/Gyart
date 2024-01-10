@@ -1,0 +1,245 @@
+/*Setting up som base colors for the color picker panel*/
+:root{
+    --top-text: #fff;
+    --top-background: #212121;
+    --top-border: #3c3c3c;
+}
+
+/* Setting layout for the page */
+.color-container{
+    margin: 0;
+    padding: 0;
+
+
+    background-color: var(--top-background);
+    color: var(--top-text);
+}
+.color-top{
+    margin: 0;
+    padding: 0;
+
+    height: 60px;
+
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: var(--top-border);
+}
+
+
+/* Fixing the title and under hedding */
+.color-top-title{
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    height: 60px;
+    float: left;
+}
+.color-top-title h1{
+    margin: 0;
+    padding: 0;
+
+}
+.color-top-title p{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Fixing the mode selector layout and looks */
+.color-top-mode{
+    margin: 0;
+    padding: 0;
+    width: 260px;
+    height: 60px;
+    float: right;
+}
+.curent-mode{
+    margin: 0;
+    padding: 0;
+    width: calc(200 - 1px);
+    float: left;
+    text-align: center;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: var(--top-border);
+}
+.mode-dropdown-btn{
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    float: right;
+
+    border-top-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: var(--top-border);
+    background-color: var(--top-background);
+    color: var(--top-text);
+}
+.mode-dropdown{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    display: none;
+    z-index: 1 !important;
+}
+.mode-dropdown-item{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+    
+    border: 1px solid var(--top-border);
+    border-top-style: none;
+    background-color: var(--top-background);
+    color: var(--top-text);
+    font-size: 1em;
+}
+
+
+/* Fixing layouts and looks for difrent color modes */
+.rule603010{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: var(--top-background);
+    display: none;
+}
+.color-window-2{
+    background-color: rgb(21, 0, 255);
+    width: 100vw;
+    height: 20px;
+    display: none;
+}
+
+
+/*Alighning quick explenations*/
+.color-window-qex{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.color1-qex{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.6);
+    height: 20px;
+}
+.color2-qex{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.3);
+    height: 20px;
+}
+.color3-qex{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.1);
+    height: 20px;
+}
+
+
+/*Alighning color picers*/
+.color-window-colors{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.color1{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.6);
+    height: 40px;
+    
+}
+.color1 input{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.6);
+    height: 40px;
+    background-color: var(--top-background);
+    border: none;
+    font-weight: 200;
+    text-align: center;
+}
+.color2{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.3);
+    height: 40px;
+    
+}
+.color2 input{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.3);
+    height: 40px;
+    background-color: var(--top-background);
+    border: none;
+    font-weight: 200;
+    text-align: center;
+}
+.color3{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.1);
+    height: 40px;
+    
+}
+.color3 input{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.1);
+    height: 40px;
+    background-color: var(--top-background);
+    border: none;
+    font-weight: 200;
+    text-align: center;
+}
+::-webkit-color-swatch{
+    border-radius: 6px;
+}
+
+
+/*Alighning color info display*/
+.display-colors{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.display1{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.6);
+    height: 20px;
+}
+.display2{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.3);
+    height: 20px;
+}
+.display3{
+    margin: 0;
+    padding: 0;
+    width: calc(80vw * 0.1);
+    height: 20px;
+}
+.display1 p, .display2 p, .display3 p{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    border: none;
+    float: left;
+    width: 5rem;
+}
