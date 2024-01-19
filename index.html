@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="style-content.css">
         <link rel="stylesheet" type="text/css" href="style-all.css">
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>
         <!-- Top - Frank style-top.css color.js -->
@@ -117,9 +117,10 @@
         
 
         <!-- Content - Frank style-content.css -->
-        <div class="chat" id="chat">
+        <div class="chat setOne-back" id="chat">
             <div class="content">
-                <div class="chat-left">
+                <div class="chat-left setTwo-back">
+                    <div class="flex-space">
                     <div class="chat-top">
                         <input type="text" placeholder="Find Friends">
                     </div>
@@ -128,19 +129,81 @@
                    </div>
                    <div class="chat-friends">
                         <div class="chat-friend">
-                            <div friend-logo>
-
+                            <div class="friend-logo">
+                                <span class="material-symbols-outlined" font-size="6vh">
+                                    person
+                                </span>
                             </div>
-                            <h2>William</h2>
-                            <p>Online</p>
+                            <div class="friend-name">
+                                <h2 class="friend-name">William</h2>
+                                <p class="friend-name">Online</p>
+                            </div>
+                        </div>
+                        <div class="chat-friend">
+                            <div class="friend-logo">
+                                <span class="material-symbols-outlined" font-size="6vh">
+                                    group
+                                </span>
+                            </div>
+                            <div class="friend-name">
+                                <h2 class="friend-name">humanrights</h2>
+                                <p class="friend-name">group</p>
+                            </div>
+                        </div>
+                        <div class="chat-friend">
+                            <div class="friend-logo">
+                                <span class="material-symbols-outlined" font-size="6vh">
+                                    person
+                                </span>
+                            </div>
+                            <div class="friend-name">
+                                <h2 class="friend-name">Månsi</h2>
+                                <p class="friend-name">Ofline</p>
+                            </div>
+                        </div>
+                        <div class="chat-friend">
+                            <div class="friend-logo">
+                                <span class="material-symbols-outlined" font-size="6vh">
+                                    person
+                                </span>
+                            </div>
+                            <div class="friend-name">
+                                <h2 class="friend-name">FarstaFrank</h2>
+                                <p class="friend-name">Online</p>
+                            </div>
                         </div>
                    </div>
-                   <div class="chat-you">
-                        
-                   </div>
+                    
+                        <div class="chat-you">
+                            <div class="your-logo">
+                                <span class="material-symbols-outlined">
+                                    person
+                                </span>
+                            </div>
+                            <div class="your-name">
+                                <h2 class="friend-name">You</h2>
+                                <p class="friend-name">Online</p>
+                            </div>
+                            <div class="settings">
+                                <span class="material-symbols-outlined" style="font-size: 1rem !important; font-weight: 400 !important; float: left;">
+                                    settings
+                                </span>
+                                <p>settings</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="chat-right">
-                    
+                    <div class="chat-msg">
+                    </div>
+                    <div class="chat-send">
+                        <input class="send-txt" type="text" placeholder="Send Message">
+                        <button class="send-btn">
+                            <span class="material-symbols-outlined btn-lg" style="font-size: 30px !important; font-weight: 300 !important; float: left;">
+                                send
+                            </span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

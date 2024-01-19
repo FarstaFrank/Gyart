@@ -31,3 +31,10 @@ button{
     margin: 0px;
     padding: 0px;
 }
+
+
+
+.material-symbols-outlined {
+    font-size: 6vh !important;
+    font-weight: 300 !important;
+}
