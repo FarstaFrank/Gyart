@@ -30,6 +30,13 @@ console.log(color1.value);
 // Sets the default mode to window 1 (60/30/10 rule)
 showWindow();
 
+// Text color btn variabls
+var textBtn = document.getElementById("textColorBtn");
+var textBtnInner = document.getElementById("textColorBtnInner");
+var textToColor = document.querySelectorAll('p,h1,h2,span');
+var textChangeBack = document.getElementsByClassName("textChangeBack")
+var textBtnState = 0;
+
 // Sets the default colors and displays them for a example
 color1.value = '#fffafb';
 color2.value = '#339989';
@@ -62,6 +69,46 @@ mode2.addEventListener("click", function () {
     
     showWindow();
 });
+
+// button function and click shanges
+textBtn.addEventListener("click", function () {
+    if(textBtnState == 0){
+        //light text color
+        textBtn.style.backgroundColor = "black";
+        textBtnInner.style.backgroundColor = "white";
+        textBtnInner.style.margin = "0px 0px 0px 35px";
+
+        changeTextBack("#212121");
+        changeTextColor("white");
+
+        textBtnState = 1;
+    }else{
+        // dark text color
+        textBtn.style.backgroundColor = "white";
+        textBtnInner.style.backgroundColor = "black";
+        textBtnInner.style.margin = "0px 0px 0px 5px";
+
+        changeTextBack("white");
+        changeTextColor("black");
+
+        textBtnState = 0;
+    }
+});
+
+function changeTextColor(color){
+    for(var i=0; i<textToColor.length; i++){
+        textToColor[i].style.color = color;
+    }
+}
+function changeTextBack(color){
+    for(var i=0; i<textChangeBack.length; i++){
+        textChangeBack[i].style.color = color;
+    }
+}
+
+
+
+
 
 // display the right window depending on the mode
 function showWindow(){

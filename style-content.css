@@ -140,10 +140,13 @@ body{
     width: 80vw;
     height: 95vh;
     box-sizing: border-box;
+
+    padding-top: 5vh;
 }
 .chat-send{
     padding: 0;
     margin: 0;
+    margin-bottom: 0.5vh;
     width: 80vw;
     height: 5vh;
     box-sizing: border-box;
@@ -180,4 +183,28 @@ body{
 
     color: rgba(0, 0, 0, 0.3);
     text-align: center;
+}
+.send-btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.send-txt:focus{
+    background-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.friend-msg{
+    width: 75vw;
+    float: left;
+}
+.friend-msg-top{
+    height: 5vh;
+}
+.friend-msg-msg{
+    margin-left: 3vw;
+    width: auto;
+}
+.friend-msg-msg p{
+    margin: 0;
 }

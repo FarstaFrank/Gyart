@@ -6,7 +6,7 @@ var openHome = document.getElementById("openHome");
 var openTextBild = document.getElementById("openTextBild");
 var openchat = document.getElementById("openChat");
 
-var curentWindow = "chat";
+var curentWindow = "textBild";
 open();
 
 openHome.addEventListener("click", function () {

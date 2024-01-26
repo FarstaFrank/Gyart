@@ -243,3 +243,30 @@
     float: left;
     width: 5rem;
 }
+
+.textColorContent {
+    width: 100vw;
+    height: 40px;
+}
+.textColorContainer {
+
+}
+.textColorBtn{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border-style: none;
+    transition: all 0.5s;
+}
+.textColorBtnInner {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    transition: all 0.5s;
+}
